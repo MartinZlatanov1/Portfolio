@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #445964;
+}
+
+.accent-color {
+    color: #263138;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: #445964;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 1.25rem;
+}
+
+.home {
+    display: flex;
+    max-width: 90rem;
+    margin: 2rem auto 0;
+}
+
+.home > * {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content em {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: block;
+    font-style: normal;
+}
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #263138;
+    border-radius: 1.25rem;
+    color: #fbfbfb;
+    padding: 0.5em 1.25em;
+    max-width: max-content;
+    font-weight: 900;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    max-width: max-content;
+    list-style: none;
+    padding: 0;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 4rem;
+}
+
+.about-me > h1,
+.about-me > h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.about-me > p {
+    max-width: 60rem;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0.5rem 0 6rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.skill-name {
+    font-size: 2.25rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    line-height: 1;
+}
+
+.rating {
+    display: flex;
+    gap: 0.5rem;
+}
